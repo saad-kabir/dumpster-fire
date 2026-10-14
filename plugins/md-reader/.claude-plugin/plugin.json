@@ -1,0 +1,9 @@
+{
+  "name": "md-reader",
+  "version": "0.1.0",
+  "description": "Read plans and markdown files with glow in a split herdr pane (or a colored pane in Claude Code): /read [path]",
+  "types": "./types/index.d.ts",
+  "author": {
+    "name": "Saad Kabir"
+  }
+}

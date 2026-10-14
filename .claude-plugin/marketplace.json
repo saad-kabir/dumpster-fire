@@ -1,0 +1,13 @@
+{
+  "name": "dumpster-fire",
+  "owner": {
+    "name": "Saad Kabir"
+  },
+  "plugins": [
+    {
+      "name": "md-reader",
+      "source": "./plugins/md-reader",
+      "description": "Read plans and markdown files with glow in a split herdr pane (or a colored pane in Claude Code): /read [path]"
+    }
+  ]
+}
