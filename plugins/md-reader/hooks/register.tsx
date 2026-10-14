@@ -198,7 +198,7 @@ async function openInHerdr($: any, arg: string): Promise<string> {
   const id = /"pane_id":"([^"]+)"/.exec(`${split.stdout}`)?.[1]
   if (split.exitCode !== 0 || !id) return `herdr split failed: ${split.stderr || split.stdout}`
   const quoted = `'${d.path.replace(/'/g, "'\\''")}'`
-  await $.process.run([bin, 'pane', 'run', id, `glow --pager ${quoted}; exit`])
+  await $.process.run([bin, 'pane', 'run', id, `glow --pager -w $(($(tput cols) - 2)) ${quoted}; exit`])
   return `Opened ${d.path} in herdr pane ${id} (q quits the pager and closes the pane).`
 }
 
