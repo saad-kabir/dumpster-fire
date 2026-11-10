@@ -8,3 +8,4 @@ This repo is also a Claude Code plugin marketplace. Add it with `/plugin marketp
 | Plugin | What it does |
 | --- | --- |
 | [md-reader](plugins/md-reader) | `/read` shows plans and markdown with glow in a herdr pane |
+| [poteto](plugins/poteto) | `/poteto` lists and filters your `~/.claude/skills` in a pane |

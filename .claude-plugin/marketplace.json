@@ -8,6 +8,11 @@
       "name": "md-reader",
       "source": "./plugins/md-reader",
       "description": "Read plans and markdown files with glow in a split herdr pane (or a colored pane in Claude Code): /read [path]"
+    },
+    {
+      "name": "poteto",
+      "source": "./plugins/poteto",
+      "description": "Browse and filter your ~/.claude/skills in a pane: /poteto"
     }
   ]
 }
